@@ -1,0 +1,440 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    
+}
+
+table {
+    width: 97%;
+}
+
+
+
+header {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(255, 255, 255);
+}
+
+li, a, button {
+    font-family: "Monserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #b60000;
+    font-weight: bold;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5% 10%;
+}
+
+.logo {
+    cursor: pointer;
+    
+}
+
+.nav_links {
+    list-style: none;
+    border-top: #b60000 solid;
+    padding: 10px;
+    border-bottom: #b60000 solid;
+}
+
+.nav_links li {
+    display: inline-block;
+    padding: 0 5%;
+}
+
+
+.nav_links li a{
+    text-decoration: none;
+    transition: all 0.3 ease 0s;
+}
+
+.nav_links li a:hover {
+    text-decoration: solid;
+    color: #7e0000;
+}
+
+button {
+    padding: 5px 5px;
+    color: white;
+    background-color: #b60000;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3 ease 0s;
+}
+
+button:hover {
+    background-color: #7e0000;
+}
+
+
+
+.HIN {
+    height: 100%;
+    width: 80%;
+    object-fit: cover;
+    background-color: rgb(255, 255, 255);
+    padding-left: 50px;
+}
+
+.logo {
+    height: 100%;
+    width: 50%;
+}
+
+h2 {
+    font-size: 28pt;
+    color: #b60000;
+}
+
+
+.text {
+    margin-left: 10px;
+    width: 100%;
+    font-size: 15pt;
+    display: block;
+    justify-content: center;
+    font-weight: bold;
+}
+
+
+.JetztKaufenButton {
+    padding: 15px 15px;
+    color: white;
+    background-color: #b60000;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3 ease 0s;
+}
+
+.zweiteüberschirft {
+    text-align: center;
+    border-top: #b60000 solid;
+    padding-top: 10px;
+    color: #b60000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16pt;
+    font-weight: 700;
+    margin-bottom: 0px;
+}
+
+.yeah {
+    text-align: center;
+    padding-top: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 12pt;
+    padding-bottom: 0;
+}
+
+.Umwelt {
+    padding-left: 100px;
+    width: 50%;
+    height: 200px;
+}
+
+.HH {
+    background-color: #ffffff;
+    margin-left: 50px;
+    margin-right: 40px;
+    margin-bottom: 20px;
+    margin-top: 60px;
+    -webkit-box-shadow: 0px 15px 19px 12px rgba(0,0,0,0.82); 
+    box-shadow: 0px 15px 19px 12px rgba(0,0,0,0.82);
+}
+
+.span {
+    padding-top: 20px;
+    border-top: #b60000 solid;
+    color: #000000;
+    font-size: 22pt;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 700;
+    text-shadow: 3px 7px 17px #000000;
+    padding-left: 20px;
+}
+
+.KK{
+    border-top: #b60000 solid 4px;
+}
+
+
+.Hundegif {
+    width: 60%;
+    height: 200px;
+    padding-left: 80px;
+}
+
+.cc {
+    color: #000000;
+    padding-left: 20px;
+    font-size: 22pt;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 700;
+    text-shadow: 3px 7px 17px #000000;
+}
+
+.mm {
+    font-size: 18pt;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.JetztKaufenButto {
+    text-align: center;
+    padding: 5px 5px;
+    position: relative;
+    color: white;
+    background-color: #b60000;
+    border: none;
+    border-radius: 0px;
+    cursor: pointer;
+    transition: all 0.3 ease 0s;
+}
+
+.ff {
+    color: #ffffff;
+    text-decoration: underline ;
+    padding-left: 20px;
+    font-size: 11pt;
+    border: none;
+    transition: all 0.3 ease 0s;
+}
+
+.ff:hover {
+    color: #e4e4e4;
+    border: none;
+    
+}
+
+.tt {
+    background-color: #b60000;
+   
+}
+
+.ll {
+    width: 60%;
+    height: 60px;
+    border: none;
+}
+
+.ää {
+    background-color: #ffffff;
+    border: none;
+}
+
+h4 {
+    font-size: 18pt;
+}
+
+.Bestseller {
+    width: 100%;
+    height: 100%;
+}
+
+.UU {
+    background-color: #b60000;
+    color: #ffffff;
+    padding-left: 0px;
+    font-weight: bold;
+    font-size: 12pt;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.pp {
+    padding: 15px 15px;
+    color: white;
+    margin: 10px;
+    background-color: #b60000;
+    border: solid;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: all 0.3 ease 0s;
+}
+
+.akk {
+    background-color: transparent;
+}
+
+.akk:hover {
+    background-color: transparent;
+}
+
+.üü {
+    color: #9e0000;
+    padding-left: 20px;
+    font-size: 22pt;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 700;
+    text-shadow: 3px 7px 17px #000000;
+}
+
+.vv {
+    width: 320px;
+    height: 100%;
+    background-color: #ffffff;
+    background-color: transparent;
+}
+
+.zz {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 700;
+    align-items: flex-end;
+    font-size: 20pt;
+    color: #000000;
+    margin-bottom: 0px;  
+    padding: 10px;  
+}
+
+.lk {
+        width: 120px;
+}
+
+.oi {
+    width: 100%;
+    height: 100%;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+#smart-button-container {
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    padding-left: 60px;
+}
+
+.Größentabelle {
+    margin: 0;
+}
+
+.gayi {
+color: #000000;
+}
+
+.KKa {
+    border-bottom: #b60000 solid 4px;
+    padding-left: 10px;
+    margin-bottom: 0;
+}
+  
+
+
+#smart-button-container {
+    border-top: #b60000;
+}
+
+.lo {
+    font-weight: bold;
+    font-size: 15pt;
+}
+
+h5 {
+    font-size: 15pt;
+    color: #b60000;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.contener_slideshow
+{
+  width:610px;
+  height:211px;
+  overflow: hidden;
+  position: relative;
+  background-image: url(http:YOUR-URL-IMAGE.png);
+}
+.slid_1, .slid_2, .slid_3
+{
+  position: absolute;
+  width:610px;
+  height:211px;
+}
+.slid_1{left: 0;}
+.slid_2{left: 610px;}
+.slid_3{left: 1220px;}
+.contener_slide
+{
+  width: 1220px;
+  height: 211px;
+  left:0px;
+  position: absolute;
+  -webkit-animation-duration: 10s;
+  -webkit-animation-iteration-count:infinite;
+  -webkit-animation-name: anim_slide;
+  -moz-animation-duration: 10s;
+  -moz-animation-iteration-count:infinite;
+  -moz-animation-name: anim_slide;
+  -ms-animation-duration: 10s;
+  -ms-animation-iteration-count:infinite;
+  -ms-animation-name: anim_slide;
+  animation-duration: 10s;
+  animation-iteration-count:infinite;
+  animation-name: anim_slide;
+}
+@-webkit-keyframes anim_slide 
+{
+  0% {left:0px;}
+  22% {left:0px;}
+  33% {left:-610px;}
+  45% {left:-610px;}
+  66% {left:-1220px;}
+  90% {left:-1220px;}
+}
+@-moz-keyframes anim_slide 
+{
+  0% {left:0px;}
+  22% {left:0px;}
+  33% {left:-610px;}
+  45% {left:-610px;}
+  66% {left:-1220px;}
+  90% {left:-1220px;}
+}
+@-ms-keyframes anim_slide 
+{
+  0% {left:0px;}
+  22% {left:0px;}
+  33% {left:-610px;}
+  45% {left:-610px;}
+  66% {left:-1220px;}
+  90% {left:-1220px;}
+}
+@keyframes anim_slide 
+{
+  0% {left:0px;}
+  22% {left:0px;}
+  33% {left:-610px;}
+  45% {left:-610px;}
+  66% {left:-1220px;}
+  90% {left:-1220px;}
+}
